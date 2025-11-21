@@ -3,7 +3,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace SistemaRastreio
+namespace DictionaryRastreio
 {
     internal class Program
     {
@@ -15,9 +15,9 @@ namespace SistemaRastreio
             while (true)
             {
                 Console.WriteLine("\n===== SISTEMA DE RASTREIO DE ENCOMENDAS =====");
-                Console.WriteLine("1 - Cadastrar nova encomenda");
+                Console.WriteLine("1 - Adicionar nova encomenda");
                 Console.WriteLine("2 - Buscar encomenda");
-                Console.WriteLine("3 - Listar todas as encomendas");
+                Console.WriteLine("3 - Listar das encomendas");
                 Console.WriteLine("4 - Sair");
                 Console.Write("Escolha uma opção: ");
                 string opcao = Console.ReadLine();
@@ -39,7 +39,7 @@ namespace SistemaRastreio
                         break;
 
                     case "4":
-                        Console.WriteLine("👋 Sistema finalizado. Até logo!");
+                        Console.WriteLine("👋 concluido. Até logo!");
                         Console.WriteLine("Pressione qualquer tecla para fechar...");
                         Console.ReadKey();
                         return;
@@ -143,5 +143,6 @@ namespace SistemaRastreio
         }
     }
 }
+
 
 
